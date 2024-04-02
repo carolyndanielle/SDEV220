@@ -48,14 +48,14 @@ class Automobile(Vehicle):
 def main():
     print(Welcome_Message)
 
-    # Ask for the vehicle type and accept the input or quit.
+    # Ask for the user for the vehicle type and accept the input or quit.
     vehicle_type = input("Enter the vehicle type (Enter 'ZZZ' to quit): ")
     if vehicle_type == 'ZZZ':
         return # Exit the program
 
-    # Loop to enter vehicle information
-    # ask for the year, make, model, number of doors, and type of roof
+    # loop to enter vehicle information
     while True:
+        # ask for the year, make, model, number of doors, and type of roof
         year = input("Enter the year: ")
         make = input("Enter the make: ")
         model = input("Enter the model: ")
