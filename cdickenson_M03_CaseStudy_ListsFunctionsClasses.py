@@ -27,6 +27,7 @@ class Vehicle:
     def __init__(self, Vehicle_type):
         self.Vehicle_type = Vehicle_type
 
+# Create a class named Automobile that inherits from the Vehicle class
 class Automobile(Vehicle):
     def __init__(self, Vehicle_type, Year, Make, Model, Doors, Roof):
         super().__init__(Vehicle_type)
@@ -36,6 +37,7 @@ class Automobile(Vehicle):
         self.Doors = Doors
         self.Roof = Roof
     
+    # Display the vehicle information
     def display_info(self):
         print(f"Vehicle Type: {self.Vehicle_type}")
         print(f"Year: {self.Year}")
@@ -76,5 +78,6 @@ def main():
         if choice == 'ZZZ':
             break # Exit the loop
 
+# Call the main function
 if __name__ == "__main__":
     main()
