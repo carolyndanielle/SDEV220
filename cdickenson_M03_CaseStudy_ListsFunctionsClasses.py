@@ -52,20 +52,13 @@ def main():
     if vehicle_type == 'ZZZ':
         return # Exit the program
 
+    # Loop to enter vehicle information
+    # ask for the year, make, model, number of doors, and type of roof
     while True:
-        # Ask for the year and accept the input
         year = input("Enter the year: ")
-
-        # Ask for the make and accept the input
         make = input("Enter the make: ")
-
-        # Ask for the model and accept the input
         model = input("Enter the model: ")
-
-        # Ask for the number of doors and accept the input
         doors = input("Enter the number of doors (2 or 4): ")
-
-        # Ask for the type of roof and accept the input
         roof = input("Enter the type of roof (solid or sun roof): ")
 
         print() # Print a blank line
