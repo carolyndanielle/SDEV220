@@ -8,7 +8,6 @@ Version: 1
 Purpose: This program accepts vehicle information and displays the information using a class and object.
 
 Variables List:
-
 vehicle_type (string) - Stores the type of vehicle. (e.g., car, truck, motorcycle, etc.) 
 year         (string) - Stores the year of the vehicle.
 make         (string) - Stores the make of the vehicle.
